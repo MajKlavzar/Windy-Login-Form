@@ -6,6 +6,7 @@
   --submitBackground: #8d0300;
   --textColor: #ffffff;
   --lineColor: gray;
+  --termsOfServise: lightgray;
 }
 
 * {
@@ -242,9 +243,9 @@ footer {
 
 #terms-of-servise{
   font-size: 0.7rem;
-  color:lightgray;
+  color:var(--termsOfServise);
 }
 #terms-of-servise a{
   text-decoration: underline;
-  color:lightgray;
+  color:var(--termsOfServise);
 }
