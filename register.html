@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In – Account – Windy.com</title>
+    <title>Sign Up – Account – Windy.com</title>
     <link rel="stylesheet" href="Styles/style.css">
     <link rel="icon" type="image/x-icon" href="Images/favicon.png">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
@@ -19,25 +19,25 @@
         <section class="form-container">
             <form novalidate aria-live="polite">
                 <div class="inputField">
-                    <label for="email">Email</label>
+                    <label for="email" class="input-title">Email</label>
                     <br>
                     <input type="email" id="email" name="email" required autofocus>
                 </div>
 
                 <div class="inputField">
-                    <label for="username">Username</label>
+                    <label for="username" class="input-title">Username</label>
                     <br>
                     <input type="text" id="username" name="username" required autofocus>
                 </div>
 
                 <div class="inputField">
-                    <label for="password">Password</label>
+                    <label for="password" class="input-title">Password</label>
                     <input type="password" id="password" name="password" required>
                     
                 </div>
 
                 <div class="inputField">
-                    <label for="password-confirmation">Password confirmation</label>
+                    <label for="password-confirmation" class="input-title">Password confirmation</label>
                     <br>
                     <input type="password" id="password-confirmation" name="password-confirmation" required autofocus>
                 </div>
@@ -56,12 +56,12 @@
                 <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=2641327169499829&kid_directed_site=0&app_id=2641327169499829&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv3.2%2Fdialog%2Foauth%3Fclient_id%3D2641327169499829%26redirect_uri%3Dhttps%253A%252F%252Faccount.windy.com%252Fauth%252Ffacebook%252Fcallback%26scope%3Demail%26response_type%3Dcode%26state%3D%257B%252522ua%252522%253A%252522Mozilla%252F5.0%2B%2528Windows%2BNT%2B10.0%253B%2BWin64%253B%2Bx64%253B%2Brv%253A158.0%2529%2BGecko%252F20100101%2BFirefox%252F158.0%252522%257D%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D77ab22f8-19b5-4cc1-b90b-f886b3d9ef9e%26tp%3Dunspecified&cancel_url=https%3A%2F%2Faccount.windy.com%2Fauth%2Ffacebook%2Fcallback%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%252522ua%252522%253A%252522Mozilla%252F5.0%2B%2528Windows%2BNT%2B10.0%253B%2BWin64%253B%2Bx64%253B%2Brv%253A158.0%2529%2BGecko%252F20100101%2BFirefox%252F158.0%252522%257D%23_%3D_&display=page&locale=en_US&pl_dbl=0&is_business_login=0"><div class="signIn" id="facebookSignIn"><img class="sign-in-icon" src="Images/facebook-white.svg" alt="" aria-hidden="true">Sign in with Facebook</div></a>
             </div>
             
-            <a href="register.html" id="signIn">Already have an account? Sign in.</a>
+            <a href="index.html" id="signIn">Already have an account? Sign in.</a>
         </section>
         <footer>
-            <a href="#" class="footer-link">Privacy policy</a>
+            <a href="https://account.windy.com/agreements/windy-privacy-policy" class="footer-link">Privacy policy</a>
             <a href="https://account.windy.com/agreements/overview-of-all-terms-of-use" class="footer-link">Terms of use</a>
-            <a href="#" class="footer-link">FAQ</a>
+            <a href="https://account.windy.com/faq" class="footer-link">FAQ</a>
             <button id="settings-button"><img src="Images/cog.svg" alt="Settings"></button>
         </footer>
     </main>
